@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "generated": "2026-10-17T20:14:32Z",
+  "generated": "2026-10-17T20:23:33Z",
   "store": {
     "name": "Jan's Store (Test)",
     "author": "Jan",
@@ -14,8 +14,8 @@
       "title": "Fußball Live",
       "author": "Jan",
       "description": "Live scores, matchdays and tables for Bundesliga, Champions League, English, Scottish and Spanish leagues and cups, the World Cup and more. Installs the plugin together with its scene and can show it over the running playlist every few minutes. German, English or Spanish.",
-      "version": "0.3.0",
-      "updated": "2026-10-17T20:14:32Z",
+      "version": "0.3.1",
+      "updated": "2026-10-17T20:23:33Z",
       "thumbnails": [
         "plugin_packs/fussball-live/thumb.webp",
         "plugin_packs/fussball-live/thumb-bl1.webp",
@@ -23,8 +23,8 @@
         "plugin_packs/fussball-live/thumb-ucl.webp"
       ],
       "download_url": "plugin_packs/fussball-live/FussballLive.zip",
-      "size": 80622,
-      "checksum": "8f1768a2905fac0544709b0d41a0701177880f8f5e76e277f0c22514f6465f4b"
+      "size": 81226,
+      "checksum": "f29359ebece2465b2c749924ac125acd3f68e72f6433959ab3820290bcadd010"
     }
   ]
 }
