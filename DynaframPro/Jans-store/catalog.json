@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "generated": "2026-10-17T19:53:14Z",
+  "generated": "2026-10-17T20:10:48Z",
   "store": {
     "name": "Jan's Store (Test)",
     "author": "Jan",
@@ -14,8 +14,8 @@
       "title": "Fußball Live",
       "author": "Jan",
       "description": "Live scores, matchdays and tables for Bundesliga, 2. Bundesliga, Champions League and more. Installs the plugin together with its scene and can show it over the running playlist every few minutes.",
-      "version": "0.1.4",
-      "updated": "2026-10-17T19:53:14Z",
+      "version": "0.2.0",
+      "updated": "2026-10-17T20:10:48Z",
       "thumbnails": [
         "plugin_packs/fussball-live/thumb.webp",
         "plugin_packs/fussball-live/thumb-bl1.webp",
@@ -23,8 +23,8 @@
         "plugin_packs/fussball-live/thumb-ucl.webp"
       ],
       "download_url": "plugin_packs/fussball-live/FussballLive.zip",
-      "size": 72080,
-      "checksum": "8343aeb0938843e2eafc9d9dcea5e6a94aefe3a1b48d88e76fc3e2cf2bc0a4fe"
+      "size": 80083,
+      "checksum": "7c3c0842c10581b41c24a78d90c784ca504fd9122a5860319aed3824aa55ee03"
     }
   ]
 }
