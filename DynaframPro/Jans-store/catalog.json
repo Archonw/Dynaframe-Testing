@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "generated": "2026-10-17T21:00:10Z",
+  "generated": "2026-10-17T21:15:13Z",
   "store": {
     "name": "Jan's Store (Test)",
     "author": "Jan",
@@ -31,17 +31,17 @@
       "type": "integration",
       "title": "American Football Live",
       "author": "Jan",
-      "description": "Live scores, weeks and standings for the NFL, College Football (Top 25), UFL and CFL. Installs the plugin together with its scene and can show it over the running playlist every few minutes or on a touchdown. Pick your team to show its logo in the background and its colours as accent. German, English or Spanish.",
-      "version": "0.1.0",
-      "updated": "2026-10-17T21:00:10Z",
+      "description": "Live scores, weeks and standings for the NFL, College Football (Top 25, SEC, Big Ten, Big 12, ACC), UFL and CFL. Installs the plugin together with its scene and can show it over the running playlist every few minutes or on a touchdown. Pick your team to show its logo in the background and its colours as accent. German, English or Spanish.",
+      "version": "0.2.0",
+      "updated": "2026-10-17T21:15:13Z",
       "thumbnails": [
         "plugin_packs/american-football-live/thumb.webp",
         "plugin_packs/american-football-live/thumb-landscape.webp",
         "plugin_packs/american-football-live/thumb-portrait.webp"
       ],
       "download_url": "plugin_packs/american-football-live/AmericanFootballLive.zip",
-      "size": 81974,
-      "checksum": "71b2bf3081e60eeb8537b3888d9f32600a89902ab2d1b6fa9c187f8efbbfa57a"
+      "size": 82821,
+      "checksum": "468d5657e139379352c420b16d09a9b35f01495107357c8a23fbe64ff2e8d3bb"
     }
   ]
 }
