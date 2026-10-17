@@ -1,0 +1,27 @@
+{
+  "version": "2.0",
+  "generated": "2026-10-17T18:40:00Z",
+  "store": {
+    "name": "Jan's Store (Test)",
+    "author": "Jan",
+    "description": "Test store for plugins before they go to Jan's Store. Things here may be unfinished or broken.",
+    "website": "https://github.com/Archonw/Dynaframe-Testing"
+  },
+  "packs": [
+    {
+      "id": "fussball-live",
+      "type": "plugin",
+      "title": "Fußball Live",
+      "author": "Jan",
+      "description": "Live scores, matchdays and tables for Bundesliga, 2. Bundesliga, Champions League and more. Can show them over the running playlist every few minutes. The matching scene comes as a separate dynamic.",
+      "version": "0.1.0",
+      "updated": "2026-10-17T18:17:00Z",
+      "thumbnails": [
+        "plugin_packs/fussball-live/thumb.webp"
+      ],
+      "download_url": "plugin_packs/fussball-live/FussballLive.zip",
+      "size": 55983,
+      "checksum": "5d74245c0e3894c21d4e8f03d62a04dde47ca707bc3629e9e6955eef0f8b3522"
+    }
+  ]
+}
