@@ -17,7 +17,10 @@
       "version": "0.1.4",
       "updated": "2026-10-17T19:53:14Z",
       "thumbnails": [
-        "plugin_packs/fussball-live/thumb.webp"
+        "plugin_packs/fussball-live/thumb.webp",
+        "plugin_packs/fussball-live/thumb-bl1.webp",
+        "plugin_packs/fussball-live/thumb-bl2.webp",
+        "plugin_packs/fussball-live/thumb-ucl.webp"
       ],
       "download_url": "plugin_packs/fussball-live/FussballLive.zip",
       "size": 72080,
