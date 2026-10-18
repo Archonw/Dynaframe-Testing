@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "generated": "2026-10-18T16:25:59Z",
+  "generated": "2026-10-18T18:38:00Z",
   "store": {
     "name": "Jan's Store (Test)",
     "author": "Jan",
@@ -102,6 +102,21 @@
       "download_url": "plugin_packs/immich/ImmichSlideshow.zip",
       "size": 62370,
       "checksum": "3e625de44e1b51e90e6306e0dc47ba1586191a6480fbb57f3a16a4f887246ed8"
+    },
+    {
+      "id": "home-assistant-live",
+      "type": "integration",
+      "title": "Home Assistant Live",
+      "author": "Jan",
+      "description": "Shows what happens at home the moment it happens: a window or door opens, someone rings the doorbell (with the camera picture), the washing machine is done. Connects to your own Home Assistant with its address and a long-lived access token, finds windows, doors, doorbell and appliances by itself, and hands the screen back to your playlist afterwards. German, English or Spanish.",
+      "version": "0.1.0",
+      "updated": "2026-10-18T18:38:00Z",
+      "thumbnails": [
+        "plugin_packs/home-assistant-live/thumb.webp"
+      ],
+      "download_url": "plugin_packs/home-assistant-live/HomeAssistantLive.zip",
+      "size": 88489,
+      "checksum": "85673dbe8a1f742f6e3d884c50c61a5794ba4ce6dcd75aee9380dcfb0298f395"
     }
   ]
 }
