@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "generated": "2026-10-18T11:49:55Z",
+  "generated": "2026-10-18T15:26:34Z",
   "store": {
     "name": "Jan's Store (Test)",
     "author": "Jan",
@@ -87,6 +87,21 @@
       "download_url": "plugin_packs/playlist-button/playlist-button.zip",
       "size": 25540,
       "checksum": "1c6a463b288383725f29718a0b7ecbbc9e5ea113b013c26243e53c5a3f4e0061"
+    },
+    {
+      "id": "immich-slideshow",
+      "type": "integration",
+      "title": "Immich Slideshow",
+      "author": "Jan",
+      "description": "Photos from your own Immich server as a slideshow: pick albums or all photos, narrow down by stars, favourites, people or a free search, and play them in random order without repeats or by date. The photos stay on the server; the frame fetches only the photo it is about to show and stores nothing. German, English or Spanish.",
+      "version": "0.1.0",
+      "updated": "2026-10-18T15:26:34Z",
+      "thumbnails": [
+        "plugin_packs/immich-slideshow/thumb.webp"
+      ],
+      "download_url": "plugin_packs/immich-slideshow/ImmichSlideshow.zip",
+      "size": 68105,
+      "checksum": "75a14ad3d42e31e17f54219f1a7b0916d28f46fed2e45aea3326b3d313d174d4"
     }
   ]
 }
