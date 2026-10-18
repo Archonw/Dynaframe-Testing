@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "generated": "2026-10-18T09:18:55Z",
+  "generated": "2026-10-18T09:31:21Z",
   "store": {
     "name": "Jan's Store (Test)",
     "author": "Jan",
@@ -42,21 +42,6 @@
       "download_url": "plugin_packs/american-football-live/AmericanFootballLive.zip",
       "size": 80533,
       "checksum": "99debdb12d8bc6ff37678cf5b56f632d5268f02364b123ab72280f7796789b13"
-    },
-    {
-      "id": "nextcloud-share",
-      "type": "plugin",
-      "title": "Nextcloud Share",
-      "author": "Jan",
-      "description": "Shows the pictures of any number of Nextcloud folders: public share links (with optional passwords) and folders of a Nextcloud account, all at the same time. Sources are managed on the plugin's own page (Open Nextcloud sources).",
-      "version": "0.4.1",
-      "updated": "2026-10-18T09:18:55Z",
-      "thumbnails": [
-        "plugin_packs/nextcloud/thumb.webp"
-      ],
-      "download_url": "plugin_packs/nextcloud/NextcloudShare.zip",
-      "size": 20581,
-      "checksum": "1cd5e64da4d7a874d06a93a2c82edb79ad05851ccc9af5c68bd23675bcc7b17c"
     }
   ]
 }
