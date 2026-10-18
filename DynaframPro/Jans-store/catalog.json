@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "generated": "2026-10-18T09:31:21Z",
+  "generated": "2026-10-18T09:32:45Z",
   "store": {
     "name": "Jan's Store (Test)",
     "author": "Jan",
@@ -42,6 +42,51 @@
       "download_url": "plugin_packs/american-football-live/AmericanFootballLive.zip",
       "size": 80533,
       "checksum": "99debdb12d8bc6ff37678cf5b56f632d5268f02364b123ab72280f7796789b13"
+    },
+    {
+      "id": "jellyfin-now-playing",
+      "type": "plugin",
+      "title": "Jellyfin Now Playing",
+      "author": "Jan",
+      "description": "Shows the cover of the movie, series or album a chosen Jellyfin user is watching right now.",
+      "version": "0.3.5",
+      "updated": "2026-10-18T09:32:45Z",
+      "thumbnails": [
+        "plugin_packs/jellyfin/thumb-v2.webp"
+      ],
+      "download_url": "plugin_packs/jellyfin/JellyfinNowPlaying.zip",
+      "size": 16992,
+      "checksum": "93fc10ab00c27b6d2a194c7f78361540673bf041e5b9fbb84943003bd97f9470"
+    },
+    {
+      "id": "webpage-button",
+      "type": "plugin",
+      "title": "Web Page Button",
+      "author": "Jan",
+      "description": "GPIO button that opens a web page full screen on top of the slideshow and closes it again with the next press",
+      "version": "0.9.1",
+      "updated": "2026-10-18T09:32:45Z",
+      "thumbnails": [
+        "plugin_packs/Webpages/thumb.webp"
+      ],
+      "download_url": "plugin_packs/Webpages/webpages.zip",
+      "size": 28346,
+      "checksum": "b4b52aadf291b0b265272282a2fdae5ef145016375406dd059142d8a53e1e290"
+    },
+    {
+      "id": "playlist-button",
+      "type": "plugin",
+      "title": "Playlist Button",
+      "author": "Jan",
+      "description": "GPIO button to select playlists via an overlay menu",
+      "version": "1.6.1",
+      "updated": "2026-10-18T09:32:45Z",
+      "thumbnails": [
+        "plugin_packs/playlist-button/thumb.webp"
+      ],
+      "download_url": "plugin_packs/playlist-button/playlist-button.zip",
+      "size": 24792,
+      "checksum": "df6012bf6a32fabd62b791609c71766b4b21befe8df889211b78298c57c488d4"
     }
   ]
 }
