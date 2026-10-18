@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "generated": "2026-10-18T16:09:18Z",
+  "generated": "2026-10-18T16:25:59Z",
   "store": {
     "name": "Jan's Store (Test)",
     "author": "Jan",
@@ -89,19 +89,19 @@
       "checksum": "1c6a463b288383725f29718a0b7ecbbc9e5ea113b013c26243e53c5a3f4e0061"
     },
     {
-      "id": "immich-slideshow",
+      "id": "immich",
       "type": "plugin",
       "title": "Immich Slideshow",
       "author": "Jan",
       "description": "Photos from your own Immich server in DynaFrame's slideshow, with DynaFrame's own display time and transitions: pick albums or all photos, narrow down by stars, favourites, people or a free search, random order without repeats or by date. The photos stay on the server; only the next few are kept on the frame and swapped once shown. German, English or Spanish.",
-      "version": "0.2.0",
-      "updated": "2026-10-18T16:09:18Z",
+      "version": "0.2.1",
+      "updated": "2026-10-18T16:25:59Z",
       "thumbnails": [
-        "plugin_packs/immich-slideshow/thumb.webp"
+        "plugin_packs/immich/thumb.webp"
       ],
-      "download_url": "plugin_packs/immich-slideshow/ImmichSlideshow.zip",
-      "size": 62485,
-      "checksum": "fcfa6027dda3a9baaebcbd9fedf9b797e12b5acb88c1df4782448a230c751ba2"
+      "download_url": "plugin_packs/immich/ImmichSlideshow.zip",
+      "size": 62370,
+      "checksum": "3e625de44e1b51e90e6306e0dc47ba1586191a6480fbb57f3a16a4f887246ed8"
     }
   ]
 }
