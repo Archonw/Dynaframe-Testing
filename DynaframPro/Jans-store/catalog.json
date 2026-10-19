@@ -202,14 +202,14 @@
       "title": "Magic Frame",
       "author": "Jan",
       "description": "Like MagicMirror: pick modules (clock, weather, calendar, news, departures, Home Assistant and more) and place each one top, bottom, left, right or centre. Add-on modules are found automatically.",
-      "version": "0.1.0",
-      "updated": "2026-10-19T21:51:42Z",
+      "version": "0.1.1",
+      "updated": "2026-10-19T22:21:46Z",
       "thumbnails": [
         "plugin_packs/magic-frame/thumb.webp"
       ],
       "download_url": "plugin_packs/magic-frame/MagicFrame.zip",
-      "size": 78255,
-      "checksum": "83b15688403670deecfb98f2a3eac5ed0a6d337a3342a40b40447f0fe6ebeb18"
+      "size": 80290,
+      "checksum": "5619fca7962151ec40935075416cedfd1e2876fe4ba19403a73e83df6a30a5a4"
     },
     {
       "id": "magic-frame-pegelstand",
