@@ -165,6 +165,21 @@
       "download_url": "plugin_packs/biathlon-live/BiathlonLive.zip",
       "size": 214376,
       "checksum": "388adc3325dac57128157dc63a6f6a60326054e48d7e481158369f05d9e22b66"
+    },
+    {
+      "id": "youtube-cast",
+      "type": "integration",
+      "title": "YouTube Cast",
+      "author": "Jan",
+      "description": "Cast YouTube videos from your phone to the frame, like to a TV: tap the cast button in the YouTube app and choose the frame (Android and iPhone, on the same Wi-Fi or once linked with a TV code). The app becomes the remote for pause, seek and volume. Links can also be sent from a phone page or the iPhone share menu. Afterwards your playlist carries on. German, English or Spanish.",
+      "version": "0.1.0",
+      "updated": "2026-10-19T21:42:00Z",
+      "thumbnails": [
+        "plugin_packs/youtube-cast/thumb.webp"
+      ],
+      "download_url": "plugin_packs/youtube-cast/YouTubeCast.zip",
+      "size": 87261,
+      "checksum": "3a9fb3b41ad89c1f4d5773bd9b17c62fa353eacbf281245bc65a14b39cc84e83"
     }
   ]
 }
