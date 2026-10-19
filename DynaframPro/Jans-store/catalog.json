@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "generated": "2026-10-19T17:50:00Z",
+  "generated": "2026-10-19T18:20:00Z",
   "store": {
     "name": "Jan's Store (Test)",
     "author": "Jan",
@@ -138,15 +138,15 @@
       "type": "integration",
       "title": "Pendler-Cockpit",
       "author": "Jan",
-      "description": "Everything for the way to work on one screen: travel time by car with live traffic (Google Maps or Mapbox, your own key; Mapbox needs no payment method), the next buses and trains at your stop with delays, rain in the next two hours, fuel prices for the types you need (Super E5, E10, Diesel) at all stations nearby or only the ones you pick, compared with the average of the last days, DWD and NINA warnings and a news ticker. Shows up during your commute window and by itself when something matters: a traffic jam, a cancelled train, cheap fuel or severe weather. Fuel prices need a free Tankerkönig key. German, English or Spanish.",
-      "version": "0.5.1",
-      "updated": "2026-10-19T17:50:00Z",
+      "description": "Everything for the way to work on one screen: travel time by car with live traffic (Google Maps or Mapbox, your own key; Mapbox needs no payment method), the next buses and trains at your stop with delays, rain in the next two hours, fuel prices for the types you need (Super E5, E10, Diesel) at all stations nearby or only the ones you pick, compared with the average of the last days, upcoming appointments from your calendar (Nextcloud or any ICS link), DWD and NINA warnings and a news ticker. Shows up during your commute window and by itself when something matters: a traffic jam, a cancelled train, cheap fuel or severe weather. Fuel prices need a free Tankerkönig key. German, English or Spanish.",
+      "version": "0.6.0",
+      "updated": "2026-10-19T18:20:00Z",
       "thumbnails": [
         "plugin_packs/pendler-cockpit/thumb.webp"
       ],
       "download_url": "plugin_packs/pendler-cockpit/PendlerCockpit.zip",
-      "size": 116562,
-      "checksum": "bb4e13890c7fc3fb8b1ccc1b425e25ec7310899ffadc5e3e4a0949b989f87644"
+      "size": 122677,
+      "checksum": "271b89a48ac8658c7725f0eae1c16db72d4f0bb844a19885b2cdb563a5df0cde"
     }
   ]
 }
