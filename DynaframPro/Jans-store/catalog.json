@@ -195,6 +195,36 @@
       "download_url": "plugin_packs/travel-map/TravelMap.zip",
       "size": 365120,
       "checksum": "9cf710f34de81111f55ddaf502f11d24499a72787ff72a725ec512f3d441794d"
+    },
+    {
+      "id": "magic-frame",
+      "type": "integration",
+      "title": "Magic Frame",
+      "author": "Jan",
+      "description": "Like MagicMirror: pick modules (clock, weather, calendar, news, departures, Home Assistant and more) and place each one top, bottom, left, right or centre. Add-on modules are found automatically.",
+      "version": "0.1.0",
+      "updated": "2026-10-19T21:51:42Z",
+      "thumbnails": [
+        "plugin_packs/magic-frame/thumb.webp"
+      ],
+      "download_url": "plugin_packs/magic-frame/MagicFrame.zip",
+      "size": 78255,
+      "checksum": "83b15688403670deecfb98f2a3eac5ed0a6d337a3342a40b40447f0fe6ebeb18"
+    },
+    {
+      "id": "magic-frame-pegelstand",
+      "type": "plugin",
+      "title": "Magic Frame: River level",
+      "author": "Jan",
+      "description": "Add-on module for Magic Frame: water level of a German river gauge (PEGELONLINE). Needs Magic Frame.",
+      "version": "1.0.0",
+      "updated": "2026-10-19T21:51:42Z",
+      "thumbnails": [
+        "plugin_packs/magic-frame/thumb-pegelstand.webp"
+      ],
+      "download_url": "plugin_packs/magic-frame/MagicFramePegelstand.zip",
+      "size": 9710,
+      "checksum": "6bb539d04fb86ff7730af68ef8b547475eeea7ec641ec422d59fd399ee66d10a"
     }
   ]
 }
