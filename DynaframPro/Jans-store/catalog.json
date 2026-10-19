@@ -199,32 +199,17 @@
     {
       "id": "magic-frame",
       "type": "integration",
-      "title": "Magic Frame",
+      "title": "Dynaframe's Magic Mirror",
       "author": "Jan",
-      "description": "Like MagicMirror: pick modules (clock, weather, calendar, news, departures, Home Assistant and more) and place each one top, bottom, left, right or centre. Add-on modules are found automatically.",
-      "version": "0.1.1",
-      "updated": "2026-10-19T22:21:46Z",
+      "description": "Inspired by MagicMirror² (github.com/MagicMirrorOrg/MagicMirror): pick modules and place each one top, bottom, left, right or centre. More modules from the built-in module catalog.",
+      "version": "0.2.0",
+      "updated": "2026-10-19T22:42:43Z",
       "thumbnails": [
         "plugin_packs/magic-frame/thumb.webp"
       ],
       "download_url": "plugin_packs/magic-frame/MagicFrame.zip",
-      "size": 80290,
-      "checksum": "5619fca7962151ec40935075416cedfd1e2876fe4ba19403a73e83df6a30a5a4"
-    },
-    {
-      "id": "magic-frame-pegelstand",
-      "type": "plugin",
-      "title": "Magic Frame: River level",
-      "author": "Jan",
-      "description": "Add-on module for Magic Frame: water level of a German river gauge (PEGELONLINE). Needs Magic Frame.",
-      "version": "1.0.0",
-      "updated": "2026-10-19T21:51:42Z",
-      "thumbnails": [
-        "plugin_packs/magic-frame/thumb-pegelstand.webp"
-      ],
-      "download_url": "plugin_packs/magic-frame/MagicFramePegelstand.zip",
-      "size": 9710,
-      "checksum": "6bb539d04fb86ff7730af68ef8b547475eeea7ec641ec422d59fd399ee66d10a"
+      "size": 82724,
+      "checksum": "c8501aed16b8086e00de032acf4e318d91fa9920cd88acadf5091989c4b4900f"
     }
   ]
 }

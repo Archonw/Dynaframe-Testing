@@ -1,6 +1,6 @@
-# Writing a Magic Frame module
+# Writing a Dynaframe's Magic Mirror module
 
-A Magic Frame module is a folder with up to four files:
+A Dynaframe's Magic Mirror module is a folder with up to four files:
 
 ```
 magicframe/
@@ -10,10 +10,19 @@ magicframe/
   fetch.py      fetches data on the frame (optional)
 ```
 
-Magic Frame finds modules in two places and checks again every minute:
+Modules reach Dynaframe's Magic Mirror in three ways. The first two install the module inside Magic Mirror's own data folder, so it does **not** show up as a separate plugin in DynaFrame's Plugins overview:
 
-1. **Inside any other installed DynaFrame plugin** that has a `magicframe/` folder. So a module can be shipped through any plugin store as a normal (tiny) plugin. See the example `MagicFramePegelstand` in Jan's store: its `plugin.py` only calls `ready()` and idles.
-2. **From a ZIP link** pasted on the Magic Frame page ("Add-on modules"). The ZIP contains the files above, at the top level or in one folder. They are unpacked to Magic Frame's own data folder.
+1. **Module catalog** (recommended): a JSON list of modules that the plugin page shows under "More modules" with an Install / Update button. Jan's catalog is built in; anyone can publish their own and users add its link under "Other sources":
+
+   ```json
+   {"name": "My modules", "modules": [
+     {"type": "yourname.thing", "name": {"en": "Thing"}, "description": {"en": "…"},
+      "version": "1.0.0", "author": "You", "url": "https://github.com/you/thing", "zip": "thing.zip"}
+   ]}
+   ```
+   `zip` may be relative to the catalog. Bump `version` to offer an update.
+2. **ZIP link** pasted on the plugin page. The ZIP contains the files above, at the top level or in one folder.
+3. **Inside another installed DynaFrame plugin** that has a `magicframe/` folder. This works too, but that plugin then appears in the Plugins overview.
 
 After that, the module appears under **Add module** like a built-in one, and its settings form is generated from `module.json`.
 
@@ -86,10 +95,10 @@ def fetch(config, ctx):
     return {"cm": row["value"]}
 ```
 
-Magic Frame imports this file in its own Python process and calls `fetch(config, ctx)` on the `every` schedule. Return anything JSON-serialisable; it becomes `ctx.data` in the scene. `ctx` has `lat`, `lon`, `lang`, `imperial`, `get(url, params=None, headers=None, expect="json"|"text")` (with Magic Frame's User-Agent and timeouts), `SourceError(code, detail)` and `log(text)`. Raise `ctx["SourceError"]("unreachable")`, `("key")`, `("format")`, `("http:503")` etc. for readable errors on the page.
+Dynaframe's Magic Mirror imports this file in its own Python process and calls `fetch(config, ctx)` on the `every` schedule. Return anything JSON-serialisable; it becomes `ctx.data` in the scene. `ctx` has `lat`, `lon`, `lang`, `imperial`, `get(url, params=None, headers=None, expect="json"|"text")` (with Dynaframe's Magic Mirror's User-Agent and timeouts), `SourceError(code, detail)` and `log(text)`. Raise `ctx["SourceError"]("unreachable")`, `("key")`, `("format")`, `("http:503")` etc. for readable errors on the page.
 
-Use only the Python standard library and `requests` (and `icalendar`, which Magic Frame already has): your plugin's own requirements may live in a different environment.
+Use only the Python standard library and `requests` (and `icalendar`, which Dynaframe's Magic Mirror already has): your plugin's own requirements may live in a different environment.
 
 ## Trust
 
-Add-on modules run with the same rights as Magic Frame. Only install modules you trust.
+Add-on modules run with the same rights as Dynaframe's Magic Mirror. Only install modules you trust.
