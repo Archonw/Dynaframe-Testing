@@ -210,6 +210,21 @@
       "download_url": "plugin_packs/magic-frame/MagicFrame.zip",
       "size": 82724,
       "checksum": "c8501aed16b8086e00de032acf4e318d91fa9920cd88acadf5091989c4b4900f"
+    },
+    {
+      "id": "magic-mirror-module-pegelstand",
+      "type": "magic-mirror-module",
+      "title": "Magic Mirror module: River level",
+      "author": "Jan",
+      "description": "TEST: module for Dynaframe's Magic Mirror without plugin type. Water level of a German river gauge.",
+      "version": "1.0.0",
+      "updated": "2026-10-19T22:53:55Z",
+      "thumbnails": [
+        "plugin_packs/magic-frame/thumb.webp"
+      ],
+      "download_url": "plugin_packs/magic-frame/modules/pegelstand.zip",
+      "size": 2360,
+      "checksum": "acf256af903bb998af1612f974e90dc54da9fe2c52a6f3849c5c601965258257"
     }
   ]
 }
