@@ -270,6 +270,21 @@
       "download_url": "plugin_packs/magic-frame/modules/musicassistant.zip",
       "size": 7883,
       "checksum": "2a30f26813b400b54f0b1902d9662dd9318aede5426f15a3f2b3a96669b4cff8"
+    },
+    {
+      "id": "magic-mirror-module-jellyfin",
+      "type": "magic-mirror-module",
+      "title": "Magic Mirror module: Jellyfin now playing",
+      "author": "Jan",
+      "description": "Module for Dynaframe's Magic Mirror (install that first). What's playing on your Jellyfin server: music, movie, episode or live TV with cover, progress and up next. Not an official Jellyfin product. Does not appear under Plugins.",
+      "version": "1.0.0",
+      "updated": "2026-10-20T20:09:18Z",
+      "thumbnails": [
+        "plugin_packs/magic-frame/thumb.webp"
+      ],
+      "download_url": "plugin_packs/magic-frame/modules/jellyfin.zip",
+      "size": 7436,
+      "checksum": "60907f28d6ebf19c6688f54cab0efbb585ec72341398ef022aada4e3abb9eea8"
     }
   ]
 }
