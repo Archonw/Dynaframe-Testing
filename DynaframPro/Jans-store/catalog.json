@@ -201,15 +201,15 @@
       "type": "integration",
       "title": "Dynaframe's Magic Mirror",
       "author": "Jan",
-      "description": "Inspired by MagicMirror² (github.com/MagicMirrorOrg/MagicMirror): pick modules and place each one top, bottom, left, right or centre. More modules from the built-in module catalog.",
-      "version": "0.2.0",
-      "updated": "2026-10-19T22:42:43Z",
+      "description": "Inspired by MagicMirror² (github.com/MagicMirrorOrg/MagicMirror): pick modules and place each one top, bottom, left, right or centre. More modules (Guest Wi-Fi QR, WebUntis, Music Assistant, river level) from the built-in module catalog.",
+      "version": "0.2.1",
+      "updated": "2026-10-20T13:56:26Z",
       "thumbnails": [
         "plugin_packs/magic-frame/thumb.webp"
       ],
       "download_url": "plugin_packs/magic-frame/MagicFrame.zip",
-      "size": 82724,
-      "checksum": "c8501aed16b8086e00de032acf4e318d91fa9920cd88acadf5091989c4b4900f"
+      "size": 82793,
+      "checksum": "78cfb0e08ad035c86d89464ea9af2ddb70849db736691321c91aa7b2bb44e14b"
     },
     {
       "id": "magic-mirror-module-pegelstand",

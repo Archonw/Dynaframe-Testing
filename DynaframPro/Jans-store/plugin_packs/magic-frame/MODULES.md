@@ -54,7 +54,7 @@ After that, the module appears under **Add module** like a built-in one, and its
 - `type`: unique id, lowercase letters, digits, `.`, `_`, `-` (2–48 chars). Use a prefix such as `yourname.weather` to avoid clashes. Built-in types (`clock`, `weather`, `forecast`, `rain`, `calendar`, `news`, `departures`, `compliments`, `warnings`, `homeassistant`, `webpage`) are taken.
 - Texts (`name`, `description`, `label`, `hint`, option labels) are a string or `{"de", "en", "es"}`; missing languages fall back to English.
 - `region`: where the module lands when added: `top_bar`, `top_left`, `top_center`, `top_right`, `middle_left`, `middle_center`, `middle_right`, `bottom_left`, `bottom_center`, `bottom_right`, `bottom_bar`.
-- `every`: seconds between fetches (30 to 86400). `visibleOnly`: only fetch while the scene is on screen (for data that changes by the minute). `place`: the module needs the location set on the page (`ctx["lat"]`, `ctx["lon"]`).
+- `every`: seconds between fetches (30 to 86400; down to 10 with `visibleOnly`). `visibleOnly`: only fetch while the scene is on screen (for data that changes by the minute). `place`: the module needs the location set on the page (`ctx["lat"]`, `ctx["lon"]`).
 - `fields[].kind`: `text`, `textarea`, `number` (with `min`/`max`), `bool`, `select` (with `options: [{"value", "label"}]`), `secret` (passwords and tokens: never sent to the scene or back to the page), `stop` (a public transport stop picked via search). `showIf: {"otherKey": "value"}` shows a field only for that value. Every module also gets a `header` field automatically.
 
 ## module.js
