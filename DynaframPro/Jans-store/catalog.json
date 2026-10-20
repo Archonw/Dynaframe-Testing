@@ -79,14 +79,14 @@
       "title": "Playlist Button",
       "author": "Jan",
       "description": "GPIO button to select playlists via an overlay menu",
-      "version": "1.6.2",
-      "updated": "2026-10-18T11:24:45Z",
+      "version": "1.7.0",
+      "updated": "2026-10-20T13:10:00Z",
       "thumbnails": [
         "plugin_packs/playlist-button/thumb.webp"
       ],
       "download_url": "plugin_packs/playlist-button/playlist-button.zip",
-      "size": 25540,
-      "checksum": "1c6a463b288383725f29718a0b7ecbbc9e5ea113b013c26243e53c5a3f4e0061"
+      "size": 26268,
+      "checksum": "6df93780d60760beb506d27a1955c70d50041869a77d2ba0e6af3c38fdb8ddaa"
     },
     {
       "id": "immich",
