@@ -1,5 +1,7 @@
 # Writing a Dynaframe's Magic Mirror module
 
+This guide is complete on its own: you can hand it to an AI assistant together with a module of the original [MagicMirror²](https://github.com/MagicMirrorOrg/MagicMirror) (its GitHub link or files) and ask it to rebuild that module for Dynaframe's Magic Mirror. See [Porting a MagicMirror² module](#porting-a-magicmirror-module) below.
+
 A Dynaframe's Magic Mirror module is a folder with up to four files:
 
 ```
@@ -86,7 +88,7 @@ After that, the module appears under **Add module** like a built-in one, and its
 | `region`, `place`, `clock24` | where the module is, the location name, 24-hour clock |
 | `h` | helpers: `esc`, `t({de,en,es}, values)`, `time(epoch)`, `dayName(epoch)`, `number(v, digits)`, `degrees(v, imperial)`, `icon(name)`, `weatherIcon(wmoCode, isDay)`, `weatherText(wmoCode)`, `nowSec()` |
 
-CSS classes from MagicMirror work as you'd expect: `xsmall small medium large xlarge`, `bright normal dimmed`, `light thin`. Text alignment follows the region (left, right, centre). Scope your own CSS with `.m-<type>`.
+CSS classes from MagicMirror work as you'd expect: `xsmall small medium large xlarge`, `bright normal dimmed`, `light thin`. Text alignment follows the region (left, right, centre). Each module sits in `<section class="module m-<type>">` (characters other than `a-z0-9-` in the type become `-`, so `yourname.thing` gets `m-yourname-thing`). Scope your own CSS with that class as the ancestor, e.g. `.m-pegelstand .trend`, and do not give your own inner elements the same class.
 
 ## fetch.py
 
@@ -99,6 +101,48 @@ def fetch(config, ctx):
 Dynaframe's Magic Mirror imports this file in its own Python process and calls `fetch(config, ctx)` on the `every` schedule. Return anything JSON-serialisable; it becomes `ctx.data` in the scene. `ctx` has `lat`, `lon`, `lang`, `imperial`, `get(url, params=None, headers=None, expect="json"|"text")` (with Dynaframe's Magic Mirror's User-Agent and timeouts), `SourceError(code, detail)` and `log(text)`. Raise `ctx["SourceError"]("unreachable")`, `("key")`, `("format")`, `("http:503")` etc. for readable errors on the page.
 
 Use only the Python standard library and `requests` (and `icalendar`, which Dynaframe's Magic Mirror already has): your plugin's own requirements may live in a different environment.
+
+## Packaging and publishing
+
+Put the files in one folder named `magicframe-<type>/` and zip that folder. The same ZIP works for all three ways in: as a ZIP link, in a module catalog and as a store entry. To offer an update, raise `version` in `module.json` and in your catalog or store entry.
+
+A store entry in a DynaFrame store `catalog.json` looks like this (`size` in bytes and `checksum` as SHA-256 of the ZIP):
+
+```json
+{"id": "magic-mirror-module-thing", "type": "magic-mirror-module", "title": "Magic Mirror module: Thing",
+ "author": "You", "description": "Module for Dynaframe's Magic Mirror (install that first). …",
+ "version": "1.0.0", "download_url": "plugin_packs/thing.zip", "size": 1234, "checksum": "…"}
+```
+
+## Porting a MagicMirror² module
+
+A MagicMirror² module (`MMM-Something`) runs in a browser with a Node.js helper next to it. Dynaframe's Magic Mirror has the same split, but with Python on the frame instead of Node.js and no configuration file: users set everything on the plugin page. Map the parts like this:
+
+| MagicMirror² | Dynaframe's Magic Mirror |
+|---|---|
+| `config.js` entry with `module`, `position`, `config: {…}` | `module.json`: `region` is the default position (`top_left` etc. use the same names), each config option becomes a field in `fields` with a label in de/en/es |
+| `defaults` in `Module.register` | `default` of each field |
+| `node_helper.js` (fetching, logins, sockets, npm packages) | `fetch.py` with `fetch(config, ctx)`, standard library and `requests` only; whatever it returns arrives as `ctx.data` |
+| `sendSocketNotification` / `socketNotificationReceived` | not needed: `fetch.py` returns data, `render` draws it |
+| `updateInterval` / `setInterval` in the helper | `every` (seconds) in `module.json`, with `visibleOnly: true` for data that is only worth fetching while the scene is visible |
+| `getDom()` | `render(el, ctx)` writing `el.innerHTML`; return `false` to hide the module |
+| `updateDom()` every second (clocks, progress bars) | `tick(el, ctx)` |
+| `getStyles()` | `module.css` |
+| `getTranslations()` | `ctx.h.t({de, en, es})` and `ctx.lang` |
+| `this.config.lat/lon`, location options | `"place": true` and `ctx["lat"]`, `ctx["lon"]` in `fetch.py` |
+| passwords, API keys, tokens | fields with `"kind": "secret"`; they reach `fetch.py` but never the scene |
+
+Things that differ from MagicMirror² and catch people out:
+
+- There is no `node_helper`, no npm and no `require`. Rewrite what the helper does in Python. Third-party JavaScript for the scene (e.g. a QR code library) has to be bundled into `module.js` itself; the scene loads only `module.js` and `module.css`.
+- `render` runs only when the settings or the data change. Show a placeholder while `ctx.data` is `null`. If `fetch.py` fails before any data arrived, the core shows the error text itself and does not call `render` or `tick`.
+- `ctx["SourceError"]("code", "detail")` with one of the known codes (`no-key`, `login`, `key`, `unreachable`, `format`, `ssl`, `quota`, `http:NNN`) gives a translated message. Any other code is shown as written, so a module can raise its own readable text, e.g. `SourceError(ctx["lang"] == "de" and "Kein Schüler gefunden" or "No student found")`.
+- After an error the next fetch waits between 1 and 5 minutes.
+- Times from `fetch.py` are best sent as epoch seconds; format them in `module.js` with `ctx.h.time()` and `ctx.h.dayName()` so they follow the user's language and clock.
+- Sizes: use the MagicMirror classes (`small`, `medium` …) or `calc(n * var(--u))` in CSS, so modules scale with the screen. Do not use fixed pixel sizes.
+- Test both landscape and portrait: regions are narrower in portrait.
+
+Working examples, each a rebuild of a MagicMirror² module, are in [module-sources](https://github.com/Archonw/Dynaframe-Stuff/tree/main/DynaframPro/Jans-store/plugin_packs/magic-frame/module-sources): `wifi` (MMM-WiFiPassword, with a bundled QR library), `webuntis` (MMM-Webuntis, with logins), `musicassistant` (MMM-MusicAssistant, WebSocket in pure Python), `jellyfin` and `pegelstand`.
 
 ## Trust
 
