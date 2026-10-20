@@ -10,7 +10,7 @@ magicframe/
   fetch.py      fetches data on the frame (optional)
 ```
 
-Modules reach Dynaframe's Magic Mirror in three ways. The first two install the module inside Magic Mirror's own data folder, so it does **not** show up as a separate plugin in DynaFrame's Plugins overview:
+Modules reach Dynaframe's Magic Mirror in four ways. The first three do **not** show up as a separate plugin in DynaFrame's Plugins overview:
 
 1. **Module catalog** (recommended): a JSON list of modules that the plugin page shows under "More modules" with an Install / Update button. Jan's catalog is built in; anyone can publish their own and users add its link under "Other sources":
 
@@ -22,7 +22,8 @@ Modules reach Dynaframe's Magic Mirror in three ways. The first two install the 
    ```
    `zip` may be relative to the catalog. Bump `version` to offer an update.
 2. **ZIP link** pasted on the plugin page. The ZIP contains the files above, at the top level or in one folder.
-3. **Inside another installed DynaFrame plugin** that has a `magicframe/` folder. This works too, but that plugin then appears in the Plugins overview.
+3. **DynaFrame store entry** with `"type": "magic-mirror-module"` whose `download_url` points at the module ZIP. The store unpacks it into `~/Pictures/<entry title>/`, where Dynaframe's Magic Mirror finds it. Remove it in the store.
+4. **Inside another installed DynaFrame plugin** that has a `magicframe/` folder. This works too, but that plugin then appears in the Plugins overview.
 
 After that, the module appears under **Add module** like a built-in one, and its settings form is generated from `module.json`.
 
