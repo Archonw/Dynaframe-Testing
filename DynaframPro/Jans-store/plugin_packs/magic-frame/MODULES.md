@@ -22,7 +22,7 @@ Modules reach Dynaframe's Magic Mirror in four ways. The first three do **not** 
    ```
    `zip` may be relative to the catalog. Bump `version` to offer an update.
 2. **ZIP link** pasted on the plugin page. The ZIP contains the files above, at the top level or in one folder.
-3. **DynaFrame store entry** with `"type": "fontpack"` whose `download_url` points at the module ZIP (files inside one folder, e.g. `magicframe-thing/module.json`). The store only knows plugin, integration, fontpack, overlay and theme and puts anything else into the media library; a font pack lands in `~/.local/share/fonts`, which font lists ignore apart from font files, and Dynaframe's Magic Mirror finds the module there. Remove it in the store.
+3. **DynaFrame store entry** with `"type": "magic-mirror-module"` whose `download_url` points at the module ZIP (files inside one folder, e.g. `magicframe-thing/module.json`). The store only knows plugin, integration, fontpack (font files only), overlay and theme, and unpacks any other type as media into `~/Pictures/<entry title>/`, where Dynaframe's Magic Mirror finds the module. Remove it in the store.
 4. **Inside another installed DynaFrame plugin** that has a `magicframe/` folder. This works too, but that plugin then appears in the Plugins overview.
 
 After that, the module appears under **Add module** like a built-in one, and its settings form is generated from `module.json`.
