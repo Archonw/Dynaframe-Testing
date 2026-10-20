@@ -45,18 +45,20 @@
     },
     {
       "id": "jellyfin-now-playing",
-      "type": "plugin",
+      "type": "integration",
       "title": "Jellyfin Now Playing",
       "author": "Jan",
-      "description": "Shows the cover of the movie, series or album a chosen Jellyfin user is watching right now.",
-      "version": "0.3.5",
-      "updated": "2026-10-18T09:32:45Z",
+      "description": "Shows what a chosen Jellyfin user is watching or listening to, on the whole screen, for as long as it plays: cover, backdrop, title, episode, year, genres, plot and progress. Installs the plugin together with its scene. All settings on its own plugin page, in German, English or Spanish.",
+      "version": "0.4.0",
+      "updated": "2026-10-20T20:35:00Z",
       "thumbnails": [
-        "plugin_packs/jellyfin/thumb-v2.webp"
+        "plugin_packs/jellyfin/thumb-v2.webp",
+        "plugin_packs/jellyfin/thumb-film.webp",
+        "plugin_packs/jellyfin/thumb-serie-hoch.webp"
       ],
       "download_url": "plugin_packs/jellyfin/JellyfinNowPlaying.zip",
-      "size": 16992,
-      "checksum": "93fc10ab00c27b6d2a194c7f78361540673bf041e5b9fbb84943003bd97f9470"
+      "size": 76641,
+      "checksum": "426f06795f375eca4512e0335431d8d465a1e046217e8fc778d2404fdb86c9b7"
     },
     {
       "id": "webpage-button",
