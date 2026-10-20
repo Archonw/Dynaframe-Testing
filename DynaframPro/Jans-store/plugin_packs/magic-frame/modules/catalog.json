@@ -13,7 +13,7 @@
         "en": "Water level of a gauge on German federal waterways (PEGELONLINE), e.g. Mainz on the Rhine, with trend.",
         "es": "Nivel de agua de una estación en las vías navegables federales de Alemania (PEGELONLINE), con tendencia."
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": "Jan",
       "zip": "pegelstand.zip"
     },

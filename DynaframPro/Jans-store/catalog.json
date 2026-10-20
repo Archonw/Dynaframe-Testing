@@ -202,74 +202,74 @@
       "title": "Dynaframe's Magic Mirror",
       "author": "Jan",
       "description": "Inspired by MagicMirror² (github.com/MagicMirrorOrg/MagicMirror): pick modules and place each one top, bottom, left, right or centre. More modules (Guest Wi-Fi QR, WebUntis, Music Assistant, river level) from the built-in module catalog.",
-      "version": "0.2.2",
-      "updated": "2026-10-20T14:33:38Z",
+      "version": "0.2.3",
+      "updated": "2026-10-20T14:50:37Z",
       "thumbnails": [
         "plugin_packs/magic-frame/thumb.webp"
       ],
       "download_url": "plugin_packs/magic-frame/MagicFrame.zip",
-      "size": 83641,
-      "checksum": "53b327fa3b76a6d9a31acf14d2337a9956a0fdc5620d990d4c4ed44ef447dd0e"
+      "size": 83883,
+      "checksum": "2fb4db4d113c6d486fd14f9856a52f929531598bf1ca03cf642a8dfe4cde6537"
     },
     {
       "id": "magic-mirror-module-pegelstand",
-      "type": "magic-mirror-module",
+      "type": "fontpack",
       "title": "Magic Mirror module: River level",
       "author": "Jan",
-      "description": "Module for Dynaframe's Magic Mirror (install that first). Water level of a gauge on German federal waterways (PEGELONLINE) with trend. Does not appear under Plugins.",
-      "version": "1.0.0",
-      "updated": "2026-10-19T22:53:55Z",
+      "description": "Module for Dynaframe's Magic Mirror (install that first). Water level of a gauge on German federal waterways (PEGELONLINE) with trend. Installed as a font pack so it stays out of Plugins and the media library.",
+      "version": "1.0.1",
+      "updated": "2026-10-20T14:50:37Z",
       "thumbnails": [
         "plugin_packs/magic-frame/thumb.webp"
       ],
       "download_url": "plugin_packs/magic-frame/modules/pegelstand.zip",
-      "size": 2360,
-      "checksum": "acf256af903bb998af1612f974e90dc54da9fe2c52a6f3849c5c601965258257"
+      "size": 2492,
+      "checksum": "35411ab0bbbe6107a73d1da3c115f2257a424a3e83c4997d67b888b649e634b9"
     },
     {
       "id": "magic-mirror-module-wifi",
-      "type": "magic-mirror-module",
+      "type": "fontpack",
       "title": "Magic Mirror module: Guest Wi-Fi",
       "author": "Jan",
-      "description": "Module for Dynaframe's Magic Mirror (install that first). Network name, password and a QR code guests scan to join your Wi-Fi. Inspired by MMM-WiFiPassword. Does not appear under Plugins.",
-      "version": "1.0.0",
-      "updated": "2026-10-20T14:33:38Z",
+      "description": "Module for Dynaframe's Magic Mirror (install that first). Network name, password and a QR code guests scan to join your Wi-Fi. Inspired by MMM-WiFiPassword. Installed as a font pack so it stays out of Plugins and the media library.",
+      "version": "1.0.1",
+      "updated": "2026-10-20T14:50:37Z",
       "thumbnails": [
         "plugin_packs/magic-frame/thumb.webp"
       ],
       "download_url": "plugin_packs/magic-frame/modules/wifi.zip",
-      "size": 10875,
-      "checksum": "b89e62f1f688fc13b943a842bb2d9e05e5778042ae4eb2ff8e204232f9e8a7c5"
+      "size": 10971,
+      "checksum": "ce0b6707f6f48c931be9682d3dfba7af031d71995f618fb42ca58924dd0d29d7"
     },
     {
       "id": "magic-mirror-module-webuntis",
-      "type": "magic-mirror-module",
+      "type": "fontpack",
       "title": "Magic Mirror module: WebUntis timetable",
       "author": "Jan",
-      "description": "Module for Dynaframe's Magic Mirror (install that first). Next school days with substitutions and cancellations, exams, homework and messages from WebUntis. Inspired by MMM-Webuntis; not an official Untis product. Does not appear under Plugins.",
-      "version": "1.0.0",
-      "updated": "2026-10-20T14:33:38Z",
+      "description": "Module for Dynaframe's Magic Mirror (install that first). Next school days with substitutions and cancellations, exams, homework and messages from WebUntis. Inspired by MMM-Webuntis; not an official Untis product. Installed as a font pack so it stays out of Plugins and the media library.",
+      "version": "1.0.1",
+      "updated": "2026-10-20T14:50:37Z",
       "thumbnails": [
         "plugin_packs/magic-frame/thumb.webp"
       ],
       "download_url": "plugin_packs/magic-frame/modules/webuntis.zip",
-      "size": 11955,
-      "checksum": "ff34809e25a412427a4a6b32eb7b8100e2dfb2f0b501384a2ad3de96c261b398"
+      "size": 12115,
+      "checksum": "82ce57feb82b7e696b7322340cfd92e0e39a9f99582df841126121c048e1668b"
     },
     {
       "id": "magic-mirror-module-musicassistant",
-      "type": "magic-mirror-module",
+      "type": "fontpack",
       "title": "Magic Mirror module: Music Assistant",
       "author": "Jan",
-      "description": "Module for Dynaframe's Magic Mirror (install that first). What's playing on your Music Assistant server with cover, progress and up next. Inspired by MMM-MusicAssistant. Does not appear under Plugins.",
-      "version": "1.0.0",
-      "updated": "2026-10-20T14:33:38Z",
+      "description": "Module for Dynaframe's Magic Mirror (install that first). What's playing on your Music Assistant server with cover, progress and up next. Inspired by MMM-MusicAssistant. Installed as a font pack so it stays out of Plugins and the media library.",
+      "version": "1.0.1",
+      "updated": "2026-10-20T14:50:37Z",
       "thumbnails": [
         "plugin_packs/magic-frame/thumb.webp"
       ],
       "download_url": "plugin_packs/magic-frame/modules/musicassistant.zip",
-      "size": 7675,
-      "checksum": "cced213e03ba926851a185c6a95de3f659b831d74f54cee78232cf06f7e6c9df"
+      "size": 7883,
+      "checksum": "2a30f26813b400b54f0b1902d9662dd9318aede5426f15a3f2b3a96669b4cff8"
     }
   ]
 }
