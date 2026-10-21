@@ -223,7 +223,7 @@
       "version": "1.0.2",
       "updated": "2026-10-20T15:08:25Z",
       "thumbnails": [
-        "plugin_packs/magic-frame/thumb.webp"
+        "plugin_packs/magic-frame/thumbs/pegelstand.webp"
       ],
       "download_url": "plugin_packs/magic-frame/modules/pegelstand.zip",
       "size": 2492,
@@ -238,7 +238,7 @@
       "version": "1.0.2",
       "updated": "2026-10-20T15:08:25Z",
       "thumbnails": [
-        "plugin_packs/magic-frame/thumb.webp"
+        "plugin_packs/magic-frame/thumbs/wifi.webp"
       ],
       "download_url": "plugin_packs/magic-frame/modules/wifi.zip",
       "size": 10971,
@@ -253,7 +253,7 @@
       "version": "1.0.2",
       "updated": "2026-10-20T15:08:25Z",
       "thumbnails": [
-        "plugin_packs/magic-frame/thumb.webp"
+        "plugin_packs/magic-frame/thumbs/webuntis.webp"
       ],
       "download_url": "plugin_packs/magic-frame/modules/webuntis.zip",
       "size": 12115,
@@ -268,7 +268,7 @@
       "version": "1.0.2",
       "updated": "2026-10-20T15:08:25Z",
       "thumbnails": [
-        "plugin_packs/magic-frame/thumb.webp"
+        "plugin_packs/magic-frame/thumbs/musicassistant.webp"
       ],
       "download_url": "plugin_packs/magic-frame/modules/musicassistant.zip",
       "size": 7883,
@@ -283,7 +283,7 @@
       "version": "1.0.0",
       "updated": "2026-10-20T20:09:18Z",
       "thumbnails": [
-        "plugin_packs/magic-frame/thumb.webp"
+        "plugin_packs/magic-frame/thumbs/jellyfin.webp"
       ],
       "download_url": "plugin_packs/magic-frame/modules/jellyfin.zip",
       "size": 7436,
