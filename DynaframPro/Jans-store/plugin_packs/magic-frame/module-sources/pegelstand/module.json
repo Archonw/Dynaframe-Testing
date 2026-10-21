@@ -8,7 +8,7 @@
   },
   "version": "1.0.1",
   "author": "Jan",
-  "url": "https://github.com/Archonw/Dynaframe-Testing/blob/main/DynaframPro/Jans-store/plugin_packs/magic-frame/MODULES.md",
+  "url": "https://github.com/Archonw/Jans-DynaframePro-Store/blob/main/plugin_packs/magic-frame/MODULES.md",
   "region": "top_right",
   "script": "module.js",
   "fetch": "fetch.py",

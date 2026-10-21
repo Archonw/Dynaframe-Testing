@@ -1,7 +1,7 @@
 # Dynaframe-Testing
 
 Test store for DynaframePro plugins. New plugins and versions land here first and move to
-[Jan's Store](https://github.com/Archonw/Dynaframe-Stuff) once they work.
+[Jan's Store](https://github.com/Archonw/Jans-DynaframePro-Store) once they work.
 
 Store address for the frame:
 

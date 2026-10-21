@@ -204,7 +204,7 @@
       "type": "integration",
       "title": "Dynaframe's Magic Mirror",
       "author": "Jan",
-      "description": "Inspired by MagicMirror² (github.com/MagicMirrorOrg/MagicMirror): pick modules and place each one top, bottom, left, right or centre. More modules (Guest Wi-Fi QR, WebUntis, Music Assistant, Jellyfin, river level) from the built-in module catalog. Build your own or port MagicMirror² modules, also with an AI: https://github.com/Archonw/Dynaframe-Stuff/blob/main/DynaframPro/Jans-store/plugin_packs/magic-frame/MODULES.md",
+      "description": "Inspired by MagicMirror² (github.com/MagicMirrorOrg/MagicMirror): pick modules and place each one top, bottom, left, right or centre. More modules (Guest Wi-Fi QR, WebUntis, Music Assistant, Jellyfin, river level) from the built-in module catalog. Build your own or port MagicMirror² modules, also with an AI: https://github.com/Archonw/Jans-DynaframePro-Store/blob/main/plugin_packs/magic-frame/MODULES.md",
       "version": "0.2.6",
       "updated": "2026-10-20T20:32:33Z",
       "thumbnails": [
@@ -219,7 +219,7 @@
       "type": "magic-mirror-module",
       "title": "Magic Mirror module: River level",
       "author": "Jan",
-      "description": "Module for Dynaframe's Magic Mirror (install that first). Water level of a gauge on German federal waterways (PEGELONLINE) with trend. Does not appear under Plugins. Guide for building or porting modules: https://github.com/Archonw/Dynaframe-Stuff/blob/main/DynaframPro/Jans-store/plugin_packs/magic-frame/MODULES.md",
+      "description": "Module for Dynaframe's Magic Mirror (install that first). Water level of a gauge on German federal waterways (PEGELONLINE) with trend. Does not appear under Plugins. Guide for building or porting modules: https://github.com/Archonw/Jans-DynaframePro-Store/blob/main/plugin_packs/magic-frame/MODULES.md",
       "version": "1.0.2",
       "updated": "2026-10-20T15:08:25Z",
       "thumbnails": [
@@ -234,7 +234,7 @@
       "type": "magic-mirror-module",
       "title": "Magic Mirror module: Guest Wi-Fi",
       "author": "Jan",
-      "description": "Module for Dynaframe's Magic Mirror (install that first). Network name, password and a QR code guests scan to join your Wi-Fi. Inspired by MMM-WiFiPassword. Does not appear under Plugins. Guide for building or porting modules: https://github.com/Archonw/Dynaframe-Stuff/blob/main/DynaframPro/Jans-store/plugin_packs/magic-frame/MODULES.md",
+      "description": "Module for Dynaframe's Magic Mirror (install that first). Network name, password and a QR code guests scan to join your Wi-Fi. Inspired by MMM-WiFiPassword. Does not appear under Plugins. Guide for building or porting modules: https://github.com/Archonw/Jans-DynaframePro-Store/blob/main/plugin_packs/magic-frame/MODULES.md",
       "version": "1.0.2",
       "updated": "2026-10-20T15:08:25Z",
       "thumbnails": [
@@ -249,7 +249,7 @@
       "type": "magic-mirror-module",
       "title": "Magic Mirror module: WebUntis timetable",
       "author": "Jan",
-      "description": "Module for Dynaframe's Magic Mirror (install that first). Next school days with substitutions and cancellations, exams, homework and messages from WebUntis. Inspired by MMM-Webuntis; not an official Untis product. Does not appear under Plugins. Guide for building or porting modules: https://github.com/Archonw/Dynaframe-Stuff/blob/main/DynaframPro/Jans-store/plugin_packs/magic-frame/MODULES.md",
+      "description": "Module for Dynaframe's Magic Mirror (install that first). Next school days with substitutions and cancellations, exams, homework and messages from WebUntis. Inspired by MMM-Webuntis; not an official Untis product. Does not appear under Plugins. Guide for building or porting modules: https://github.com/Archonw/Jans-DynaframePro-Store/blob/main/plugin_packs/magic-frame/MODULES.md",
       "version": "1.0.2",
       "updated": "2026-10-20T15:08:25Z",
       "thumbnails": [
@@ -264,7 +264,7 @@
       "type": "magic-mirror-module",
       "title": "Magic Mirror module: Music Assistant",
       "author": "Jan",
-      "description": "Module for Dynaframe's Magic Mirror (install that first). What's playing on your Music Assistant server with cover, progress and up next. Inspired by MMM-MusicAssistant. Does not appear under Plugins. Guide for building or porting modules: https://github.com/Archonw/Dynaframe-Stuff/blob/main/DynaframPro/Jans-store/plugin_packs/magic-frame/MODULES.md",
+      "description": "Module for Dynaframe's Magic Mirror (install that first). What's playing on your Music Assistant server with cover, progress and up next. Inspired by MMM-MusicAssistant. Does not appear under Plugins. Guide for building or porting modules: https://github.com/Archonw/Jans-DynaframePro-Store/blob/main/plugin_packs/magic-frame/MODULES.md",
       "version": "1.0.2",
       "updated": "2026-10-20T15:08:25Z",
       "thumbnails": [
@@ -279,7 +279,7 @@
       "type": "magic-mirror-module",
       "title": "Magic Mirror module: Jellyfin now playing",
       "author": "Jan",
-      "description": "Module for Dynaframe's Magic Mirror (install that first). What's playing on your Jellyfin server: music, movie, episode or live TV with cover, progress and up next. Not an official Jellyfin product. Does not appear under Plugins. Guide for building or porting modules: https://github.com/Archonw/Dynaframe-Stuff/blob/main/DynaframPro/Jans-store/plugin_packs/magic-frame/MODULES.md",
+      "description": "Module for Dynaframe's Magic Mirror (install that first). What's playing on your Jellyfin server: music, movie, episode or live TV with cover, progress and up next. Not an official Jellyfin product. Does not appear under Plugins. Guide for building or porting modules: https://github.com/Archonw/Jans-DynaframePro-Store/blob/main/plugin_packs/magic-frame/MODULES.md",
       "version": "1.0.0",
       "updated": "2026-10-20T20:09:18Z",
       "thumbnails": [
