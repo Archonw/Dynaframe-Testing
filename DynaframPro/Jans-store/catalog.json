@@ -117,7 +117,7 @@
       "thumbnails": [
         "plugin_packs/home-assistant-live/thumb.webp"
       ],
-      "download_url": "https://github.com/Archonw/Dynaframe-Testing/releases/download/home-assistant-live-v0.1.0/HomeAssistantLive.zip",
+      "download_url": "plugin_packs/home-assistant-live/HomeAssistantLive.zip",
       "size": 88489,
       "checksum": "85673dbe8a1f742f6e3d884c50c61a5794ba4ce6dcd75aee9380dcfb0298f395"
     },
