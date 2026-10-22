@@ -142,7 +142,7 @@ Things that differ from MagicMirror² and catch people out:
 - Sizes: use the MagicMirror classes (`small`, `medium` …) or `calc(n * var(--u))` in CSS, so modules scale with the screen. Do not use fixed pixel sizes.
 - Test both landscape and portrait: regions are narrower in portrait.
 
-Working examples, each a rebuild of a MagicMirror² module, are in [module-sources](https://github.com/Archonw/Jans-DynaframePro-Store/tree/main/plugin_packs/magic-frame/module-sources): `wifi` (MMM-WiFiPassword, with a bundled QR library), `webuntis` (MMM-Webuntis, with logins), `musicassistant` (MMM-MusicAssistant, WebSocket in pure Python), `jellyfin` and `pegelstand`.
+Working examples, each a rebuild of a MagicMirror² module, are in [module-sources](https://github.com/Archonw/Dynaframe-Stuff/tree/main/DynaframPro/Jans-store/plugin_packs/magic-frame/module-sources): `wifi` (MMM-WiFiPassword, with a bundled QR library), `webuntis` (MMM-Webuntis, with logins), `musicassistant` (MMM-MusicAssistant, WebSocket in pure Python), `jellyfin` and `pegelstand`.
 
 ## Trust
 
