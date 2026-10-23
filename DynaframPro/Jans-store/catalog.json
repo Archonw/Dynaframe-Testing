@@ -185,6 +185,21 @@
       "checksum": "3a9fb3b41ad89c1f4d5773bd9b17c62fa353eacbf281245bc65a14b39cc84e83"
     },
     {
+      "id": "phone-photos",
+      "type": "integration",
+      "title": "Phone Photos",
+      "author": "Jan",
+      "description": "Show the photo you are looking at on your phone on the frame right away, on iPhone and Android without an extra app: from the share menu of the Photos app (iPhone shortcut), from an Android share app, or from the frame's phone page (QR code). The photo fills the screen for a few minutes, several photos take turns, then your playlist carries on. German, English or Spanish.",
+      "version": "0.1.0",
+      "updated": "2026-10-23T10:00:00Z",
+      "thumbnails": [
+        "plugin_packs/phone-photos/thumb.webp"
+      ],
+      "download_url": "plugin_packs/phone-photos/PhonePhotos.zip",
+      "size": 86510,
+      "checksum": "261d2552f603c4b654545a0b07c0faa3686315643034c409e8b13c3e64ef90c9"
+    },
+    {
       "id": "travel-map",
       "type": "integration",
       "title": "Travel Map",
