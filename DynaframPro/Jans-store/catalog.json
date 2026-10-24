@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "generated": "2026-10-24T15:31:11Z",
+  "generated": "2026-10-24T16:01:38Z",
   "store": {
     "name": "Jan's Store (Test)",
     "author": "Jan",
@@ -50,16 +50,16 @@
       "title": "Jellyfin Now Playing",
       "author": "Jan",
       "description": "Shows what a chosen Jellyfin user is watching or listening to, on the whole screen, for as long as it plays: cover, backdrop, title, episode, year, genres, plot and progress. Installs the plugin together with its scene. All settings on its own plugin page, in German, English or Spanish.",
-      "version": "0.4.0",
-      "updated": "2026-10-20T20:35:00Z",
+      "version": "0.4.1",
+      "updated": "2026-10-24T16:01:37Z",
       "thumbnails": [
         "plugin_packs/jellyfin/thumb-v2.webp",
         "plugin_packs/jellyfin/thumb-film.webp",
         "plugin_packs/jellyfin/thumb-serie-hoch.webp"
       ],
       "download_url": "plugin_packs/jellyfin/JellyfinNowPlaying.zip",
-      "size": 76641,
-      "checksum": "426f06795f375eca4512e0335431d8d465a1e046217e8fc778d2404fdb86c9b7"
+      "size": 77089,
+      "checksum": "8578ad95e1d857397cbe61c9c35eb687c3b5d82f4109738d8f006cd2e7f71bb8"
     },
     {
       "id": "webpage-button",
@@ -112,14 +112,14 @@
       "title": "Home Assistant Live",
       "author": "Jan",
       "description": "Shows what happens at home the moment it happens: a window or door opens, someone rings the doorbell (with the camera picture), the washing machine is done. Connects to your own Home Assistant with its address and a long-lived access token, finds windows, doors, doorbell and appliances by itself, and hands the screen back to your playlist afterwards. German, English or Spanish.",
-      "version": "0.1.0",
-      "updated": "2026-10-18T18:38:00Z",
+      "version": "0.1.1",
+      "updated": "2026-10-24T16:01:37Z",
       "thumbnails": [
         "plugin_packs/home-assistant-live/thumb.webp"
       ],
       "download_url": "plugin_packs/home-assistant-live/HomeAssistantLive.zip",
-      "size": 88489,
-      "checksum": "85673dbe8a1f742f6e3d884c50c61a5794ba4ce6dcd75aee9380dcfb0298f395"
+      "size": 88942,
+      "checksum": "ac59d194f3ed989c745ddb613b5f94433eb0331db1ceccf1946c12fe2bc54f28"
     },
     {
       "id": "world-map-live",
@@ -142,14 +142,14 @@
       "title": "Pendler-Cockpit",
       "author": "Jan",
       "description": "Everything for the way to work on one screen: travel time by car with live traffic (Google Maps or Mapbox, your own key; Mapbox needs no payment method), the next buses and trains at your stop with delays, rain in the next two hours, fuel prices for the types you need (Super E5, E10, Diesel) at all stations nearby or only the ones you pick, compared with the average of the last days, upcoming appointments from your calendar (Nextcloud or any ICS link), DWD and NINA warnings and a news ticker. Shows up during your commute window and by itself when something matters: a traffic jam, a cancelled train, cheap fuel or severe weather. Fuel prices need a free Tankerkönig key. German, English or Spanish.",
-      "version": "0.6.0",
-      "updated": "2026-10-19T18:20:00Z",
+      "version": "0.6.1",
+      "updated": "2026-10-24T16:01:38Z",
       "thumbnails": [
         "plugin_packs/pendler-cockpit/thumb.webp"
       ],
       "download_url": "plugin_packs/pendler-cockpit/PendlerCockpit.zip",
-      "size": 122677,
-      "checksum": "271b89a48ac8658c7725f0eae1c16db72d4f0bb844a19885b2cdb563a5df0cde"
+      "size": 123146,
+      "checksum": "43ec54ac86b85c15b3b830d6bcbd4f36bb7ac501bd4e41dade64ccf05fc81630"
     },
     {
       "id": "biathlon-live",
@@ -157,8 +157,8 @@
       "title": "Biathlon Live",
       "author": "Jan",
       "description": "Biathlon results with shooting, live standings during a race, schedule, next venue and World Cup standings from the IBU (biathlonresults.com): World Cup, World Championships, IBU Cup and more. A rebuild of the MagicMirror module MMM-Biathlon by 2hdlockness. Installs the plugin together with its scene and can show it over the running playlist every few minutes, at race start or when a result is in. Pick your nation to highlight its athletes. German, English or Spanish.",
-      "version": "0.1.3",
-      "updated": "2026-10-22T21:56:02Z",
+      "version": "0.1.4",
+      "updated": "2026-10-24T16:01:37Z",
       "thumbnails": [
         "plugin_packs/biathlon-live/thumb.webp",
         "plugin_packs/biathlon-live/thumb-landscape.webp",
@@ -166,8 +166,8 @@
         "plugin_packs/biathlon-live/thumb-portrait.webp"
       ],
       "download_url": "plugin_packs/biathlon-live/BiathlonLive.zip",
-      "size": 214470,
-      "checksum": "fd9ed45a8bfe4fd82314645afa0c5ff5e9a5e6f6b05330d4b22d6775ee6a95c9"
+      "size": 214894,
+      "checksum": "4dfbd769357301d6a781da5e9b42091797c9869ccdf947616a2e5b3fb2911190"
     },
     {
       "id": "youtube-cast",
@@ -175,14 +175,14 @@
       "title": "YouTube Cast",
       "author": "Jan",
       "description": "Cast YouTube videos from your phone to the frame, like to a TV: tap the cast button in the YouTube app and choose the frame (Android and iPhone, on the same Wi-Fi or once linked with a TV code). The app becomes the remote for pause, seek and volume. Links can also be sent from a phone page or the iPhone share menu. Afterwards your playlist carries on. German, English or Spanish.",
-      "version": "0.1.0",
-      "updated": "2026-10-19T21:42:00Z",
+      "version": "0.1.1",
+      "updated": "2026-10-24T16:01:38Z",
       "thumbnails": [
         "plugin_packs/youtube-cast/thumb.webp"
       ],
       "download_url": "plugin_packs/youtube-cast/YouTubeCast.zip",
-      "size": 87261,
-      "checksum": "3a9fb3b41ad89c1f4d5773bd9b17c62fa353eacbf281245bc65a14b39cc84e83"
+      "size": 87704,
+      "checksum": "3538eee1651947097b3165de7c4fec7b598b34cc5dd59c727983d70cb19d9298"
     },
     {
       "id": "phone-photos",
@@ -190,14 +190,14 @@
       "title": "Phone Photos",
       "author": "Jan",
       "description": "Show the photo you are looking at on your phone on the frame right away, on iPhone and Android without an extra app: from the share menu of the Photos app (iPhone shortcut), from an Android share app, or from the frame's phone page (QR code). The photo fills the screen for a few minutes, several photos take turns, then your playlist carries on. German, English or Spanish.",
-      "version": "0.1.0",
-      "updated": "2026-10-23T10:00:00Z",
+      "version": "0.1.1",
+      "updated": "2026-10-24T16:01:38Z",
       "thumbnails": [
         "plugin_packs/phone-photos/thumb.webp"
       ],
       "download_url": "plugin_packs/phone-photos/PhonePhotos.zip",
-      "size": 86510,
-      "checksum": "261d2552f603c4b654545a0b07c0faa3686315643034c409e8b13c3e64ef90c9"
+      "size": 86941,
+      "checksum": "265853e73d59ba2b3eb58e6a9134864575d472ac9db23aee7550f53accdb3b89"
     },
     {
       "id": "travel-map",
@@ -220,14 +220,14 @@
       "title": "Dynaframe's Magic Mirror",
       "author": "Jan",
       "description": "Inspired by MagicMirror² (github.com/MagicMirrorOrg/MagicMirror); not an official MagicMirror² project. pick modules and place each one top, bottom, left, right or centre. Or switch the whole scene to a skin (Retro LCD clock, Colour grid, or add-on skins like Starship console from the catalog, the store or a ZIP file) and choose what each of its fields shows. More modules (Guest Wi-Fi QR, WebUntis, Music Assistant, Jellyfin, river level) from the built-in module catalog. Build your own or port MagicMirror² modules, also with an AI: https://github.com/Archonw/Jans-DynaframePro-Store/blob/main/plugin_packs/magic-frame/MODULES.md",
-      "version": "0.6.3",
-      "updated": "2026-10-24T14:55:04Z",
+      "version": "0.6.4",
+      "updated": "2026-10-24T16:01:37Z",
       "thumbnails": [
         "plugin_packs/magic-frame/thumb.webp"
       ],
       "download_url": "plugin_packs/magic-frame/MagicFrame.zip",
-      "size": 154215,
-      "checksum": "76030a80fa0c49ae8f5f7ba75a9a9b4261bdd75e3150c713e098283d9ffb82a6"
+      "size": 154553,
+      "checksum": "f88f3f6c7500d4ed1947481403e0d9c0743df6102b0fef85114d1f145e79e6d2"
     },
     {
       "id": "magic-mirror-module-pegelstand",
