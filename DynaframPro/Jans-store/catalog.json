@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "generated": "2026-10-24T11:55:40Z",
+  "generated": "2026-10-24T12:25:31Z",
   "store": {
     "name": "Jan's Store (Test)",
     "author": "Jan",
@@ -219,15 +219,15 @@
       "type": "integration",
       "title": "Dynaframe's Magic Mirror",
       "author": "Jan",
-      "description": "Inspired by MagicMirror² (github.com/MagicMirrorOrg/MagicMirror): pick modules and place each one top, bottom, left, right or centre. Or switch the whole scene to a skin (Retro LCD clock, Colour grid) and choose what each of its fields shows. More modules (Guest Wi-Fi QR, WebUntis, Music Assistant, Jellyfin, river level) from the built-in module catalog. Build your own or port MagicMirror² modules, also with an AI: https://github.com/Archonw/Jans-DynaframePro-Store/blob/main/plugin_packs/magic-frame/MODULES.md",
-      "version": "0.5.0",
-      "updated": "2026-10-24T11:55:40Z",
+      "description": "Inspired by MagicMirror² (github.com/MagicMirrorOrg/MagicMirror): pick modules and place each one top, bottom, left, right or centre. Or switch the whole scene to a skin (Retro LCD clock, Colour grid, or add-on skins like Starship console from the catalog, the store or a ZIP file) and choose what each of its fields shows. More modules (Guest Wi-Fi QR, WebUntis, Music Assistant, Jellyfin, river level) from the built-in module catalog. Build your own or port MagicMirror² modules, also with an AI: https://github.com/Archonw/Jans-DynaframePro-Store/blob/main/plugin_packs/magic-frame/MODULES.md",
+      "version": "0.6.0",
+      "updated": "2026-10-24T12:25:31Z",
       "thumbnails": [
         "plugin_packs/magic-frame/thumb.webp"
       ],
       "download_url": "plugin_packs/magic-frame/MagicFrame.zip",
-      "size": 144703,
-      "checksum": "9e2b8753d43b103fec32366d0bc6225092f8d19ff6cfc63c6efc56723ac8abbb"
+      "size": 146173,
+      "checksum": "da64ce540b287e002649317a64bf7c978ec1fd0940be62d2b342243e736ea3b4"
     },
     {
       "id": "magic-mirror-module-pegelstand",
@@ -303,6 +303,21 @@
       "download_url": "plugin_packs/magic-frame/modules/jellyfin.zip",
       "size": 7436,
       "checksum": "60907f28d6ebf19c6688f54cab0efbb585ec72341398ef022aada4e3abb9eea8"
+    },
+    {
+      "id": "magic-mirror-skin-bordcomputer",
+      "type": "magic-mirror-module",
+      "title": "Magic Mirror skin: Starship console",
+      "author": "Jan",
+      "description": "Skin for Dynaframe's Magic Mirror 0.6.0 or newer (install that first). Black screen with rounded orange, lilac and peach bars like the ship computers of 90s starship series: big clock, stardate, main viewer, three readouts and a bottom line. Choose on the plugin page what each field shows (forecast, news, calendar, departures, Home Assistant values …). Three colour sets incl. red alert. A fan design, not an official product. Does not appear under Plugins. Guide for building skins: https://github.com/Archonw/Jans-DynaframePro-Store/blob/main/plugin_packs/magic-frame/MODULES.md#skins",
+      "version": "1.0.0",
+      "updated": "2026-10-24T12:25:31Z",
+      "thumbnails": [
+        "plugin_packs/magic-frame/thumbs/bordcomputer.webp"
+      ],
+      "download_url": "plugin_packs/magic-frame/modules/bordcomputer.zip",
+      "size": 32246,
+      "checksum": "c1dd97c3593eaa2c45d6a7c86063c3dc1078582f2a64d857c59fdef5f0ca9757"
     }
   ]
 }
