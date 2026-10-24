@@ -62,8 +62,13 @@
 .bc .panel > header::after { content: ""; flex: 1; height: .5vmin; background: var(--c); opacity: .55; }
 .bc .panel > header span { color: var(--c); font-size: 2.3vmin; letter-spacing: .05em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 70%; }
 .bc .panel > header span:empty { display: none; }
-.bc .panel > .wslot { flex: 1; }
+.bc .panel > [data-slot] { flex: 1; }
 .bc .s-time > header, .bc .s-ticker > header { display: none; }
+/* Hauptschirm mit mehreren Inhalten: der erste bekommt am meisten Platz, dazwischen eine feine Linie */
+.bc .wmulti { gap: var(--pad); }
+.bc .wmulti > .wslot:first-child { flex-grow: 1.5; }
+.bc .wmulti > .wslot + .wslot::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: .35vmin; z-index: 1;
+  background: linear-gradient(90deg, var(--c) 0 12%, transparent 12% 13.5%, color-mix(in srgb, var(--c) 45%, transparent) 13.5%); }
 .bc .s-ticker { border-left: 1.4vmin solid var(--c); padding-left: 1.4vmin; border-radius: 1vmin 0 0 1vmin; }
 
 /* Widgets im Stil des Bordcomputers */

@@ -3,11 +3,11 @@
   "kind": "skin",
   "name": {"de": "Bordcomputer", "en": "Starship console", "es": "Ordenador de a bordo"},
   "description": {
-    "de": "Schwarzer Bildschirm mit runden Balken in Orange, Flieder und Pfirsich, wie die Bordcomputer in Raumschiff-Serien der 90er. Mit Sternzeit, Hauptschirm, drei Anzeigen und einer Laufzeile. Ein Fan-Design, kein offizielles Produkt.",
-    "en": "Black screen with rounded bars in orange, lilac and peach, like the ship computers in 90s starship series. With stardate, main viewer, three readouts and a ticker line. A fan design, not an official product.",
-    "es": "Pantalla negra con barras redondeadas en naranja, lila y melocotón, como los ordenadores de las series de naves de los 90. Con fecha estelar, pantalla principal, tres indicadores y una línea inferior. Diseño de fan, no es un producto oficial."
+    "de": "Schwarzer Bildschirm mit runden Balken in Orange, Flieder und Pfirsich, wie die Bordcomputer in Raumschiff-Serien der 90er. Mit Sternzeit, Hauptschirm (bis zu drei Inhalte), drei Anzeigen und einer Laufzeile. Ein Fan-Design, kein offizielles Produkt.",
+    "en": "Black screen with rounded bars in orange, lilac and peach, like the ship computers in 90s starship series. With stardate, main viewer (up to three items), three readouts and a ticker line. A fan design, not an official product.",
+    "es": "Pantalla negra con barras redondeadas en naranja, lila y melocotón, como los ordenadores de las series de naves de los 90. Con fecha estelar, pantalla principal (hasta tres elementos), tres indicadores y una línea inferior. Diseño de fan, no es un producto oficial."
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Jan",
   "script": "module.js",
   "style": "module.css",
@@ -24,7 +24,7 @@
      "accepts": ["time", "analog", "date", "stardate", "countdown", "weather", "text", "values", "nowplaying", "headlines"]},
     {"id": "info", "name": {"de": "Oben rechts", "en": "Top right", "es": "Arriba a la derecha"}, "default": "skin:stardate",
      "accepts": ["stardate", "date", "year", "time", "countdown", "weather", "sunrise", "sunset", "text", "values"]},
-    {"id": "main", "name": {"de": "Hauptschirm", "en": "Main viewer", "es": "Pantalla principal"}, "default": "skin:forecast",
+    {"id": "main", "name": {"de": "Hauptschirm", "en": "Main viewer", "es": "Pantalla principal"}, "default": "skin:forecast", "max": 3,
      "accepts": ["forecast", "list", "values", "headlines", "text", "nowplaying", "weather", "weatherpicture", "picture",
                  "analog", "time", "stardate", "countdown", "module"]},
     {"id": "a", "name": {"de": "Anzeige 1", "en": "Readout 1", "es": "Indicador 1"}, "default": "skin:weather",
