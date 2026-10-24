@@ -126,15 +126,15 @@
       "type": "integration",
       "title": "World Map Live",
       "author": "Jan",
-      "description": "A calm world map with borders, day and night and the day-night line that shows real aircraft, ships, lightning strikes and the ISS live: aircraft from the OpenSky Network (no account needed), ships from AISStream.io (free API key), lightning from the volunteer network Blitzortung.org, the ISS orbit from CelesTrak. Whole world or Europe, DACH, North America, East Asia. German, English or Spanish.",
-      "version": "0.3.4",
-      "updated": "2026-10-19T11:55:00Z",
+      "description": "A calm world map with borders, day and night and the day-night line that shows real aircraft, ships, lightning strikes and the ISS live: aircraft from the OpenSky Network (no account needed), ships from up to five sources you can switch on and off (AISStream.io with a free API key, Kystverket for Norway and Digitraffic for the Baltic Sea without sign-up, AISHub, or your own AIS receiver), lightning from the volunteer network Blitzortung.org, the ISS orbit from CelesTrak. Whole world or Europe, DACH, North America, East Asia. German, English or Spanish.",
+      "version": "0.4.0",
+      "updated": "2026-10-24T05:43:48Z",
       "thumbnails": [
         "plugin_packs/world-map-live/thumb.webp"
       ],
       "download_url": "plugin_packs/world-map-live/WorldMapLive.zip",
-      "size": 159614,
-      "checksum": "1306e7e1e51eb6bc8835be689364a281838fd4a7a8c9067811d77a15d39b34bf"
+      "size": 167091,
+      "checksum": "bb5d712111e16223884de6b040a32f484dafdaf905ff3bac6d7d61777203ab2f"
     },
     {
       "id": "pendler-cockpit",
