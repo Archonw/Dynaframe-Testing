@@ -96,7 +96,7 @@
         "en": "Black screen with rounded bars in orange, lilac and peach, like the ship computers in 90s starship series. With stardate, main viewer (up to three items), three readouts and a ticker line. A fan design, not an official product.",
         "es": "Pantalla negra con barras redondeadas en naranja, lila y melocotón, como los ordenadores de las series de naves de los 90. Con fecha estelar, pantalla principal (hasta tres elementos), tres indicadores y una línea inferior. Diseño de fan, no es un producto oficial."
       },
-      "version": "1.1.0",
+      "version": "1.2.0",
       "author": "Jan",
       "zip": "bordcomputer.zip"
     }

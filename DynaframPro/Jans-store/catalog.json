@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "generated": "2026-10-24T14:43:41Z",
+  "generated": "2026-10-24T14:55:04Z",
   "store": {
     "name": "Jan's Store (Test)",
     "author": "Jan",
@@ -220,14 +220,14 @@
       "title": "Dynaframe's Magic Mirror",
       "author": "Jan",
       "description": "Inspired by MagicMirror² (github.com/MagicMirrorOrg/MagicMirror); not an official MagicMirror² project. pick modules and place each one top, bottom, left, right or centre. Or switch the whole scene to a skin (Retro LCD clock, Colour grid, or add-on skins like Starship console from the catalog, the store or a ZIP file) and choose what each of its fields shows. More modules (Guest Wi-Fi QR, WebUntis, Music Assistant, Jellyfin, river level) from the built-in module catalog. Build your own or port MagicMirror² modules, also with an AI: https://github.com/Archonw/Jans-DynaframePro-Store/blob/main/plugin_packs/magic-frame/MODULES.md",
-      "version": "0.6.2",
-      "updated": "2026-10-24T14:43:41Z",
+      "version": "0.6.3",
+      "updated": "2026-10-24T14:55:04Z",
       "thumbnails": [
         "plugin_packs/magic-frame/thumb.webp"
       ],
       "download_url": "plugin_packs/magic-frame/MagicFrame.zip",
-      "size": 152649,
-      "checksum": "778fc48af873455cfe7e3573b4ccd33fd92a02c2b98250d9a96a15be2011641a"
+      "size": 154215,
+      "checksum": "76030a80fa0c49ae8f5f7ba75a9a9b4261bdd75e3150c713e098283d9ffb82a6"
     },
     {
       "id": "magic-mirror-module-pegelstand",
@@ -309,15 +309,15 @@
       "type": "magic-mirror-module",
       "title": "Magic Mirror skin: Starship console",
       "author": "Jan",
-      "description": "Skin for Dynaframe's Magic Mirror 0.6.1 or newer (install that first). Black screen with rounded orange, lilac and peach bars like the ship computers of 90s starship series: big clock, stardate, main viewer for up to three items, three readouts and a bottom line. Choose on the plugin page what each field shows (forecast, news, calendar, departures, Home Assistant values …). Three colour sets incl. red alert. A fan design, not an official product. Does not appear under Plugins. Guide for building skins: https://github.com/Archonw/Jans-DynaframePro-Store/blob/main/plugin_packs/magic-frame/MODULES.md#skins",
-      "version": "1.1.0",
-      "updated": "2026-10-24T13:15:15Z",
+      "description": "Skin for Dynaframe's Magic Mirror 0.6.3 or newer (install that first). Black screen with rounded orange, lilac and peach bars like the ship computers of 90s starship series: big clock, stardate, main viewer for up to three items, three readouts and a bottom line. Choose on the plugin page what each field shows (forecast, news, calendar, departures, Home Assistant values …). Text size adjustable per field. Three colour sets incl. red alert. A fan design, not an official product. Does not appear under Plugins. Guide for building skins: https://github.com/Archonw/Jans-DynaframePro-Store/blob/main/plugin_packs/magic-frame/MODULES.md#skins",
+      "version": "1.2.0",
+      "updated": "2026-10-24T14:55:04Z",
       "thumbnails": [
         "plugin_packs/magic-frame/thumbs/bordcomputer.webp"
       ],
       "download_url": "plugin_packs/magic-frame/modules/bordcomputer.zip",
-      "size": 32465,
-      "checksum": "7047b51edd7576bd607836fb5b52933b7bd98ec3b8e9b8572f99aec528059981"
+      "size": 32470,
+      "checksum": "3631881b02ebe357855ebad5f8a9ddd0e1d5a6d8ba0a5db118d39c09c5f49600"
     }
   ]
 }
